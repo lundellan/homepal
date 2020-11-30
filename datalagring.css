@@ -1,0 +1,57 @@
+.wallpaper	{
+	margin-top: 75px;
+}
+
+.pageDivider	{
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
+.largeTitleIllustration	{
+	float: left;
+	height: 150px;
+}
+
+.tinyTextSection	{
+	padding-bottom: 170px;
+}
+
+.tinyTextImage	{
+	float: left;
+	width: 500px;
+	margin: 50px calc(45px / 2) 0 calc(45px / 2);
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+}
+
+.titleParent	{
+	margin-bottom: 35px;
+}
+
+.productImage	{
+	width: 100%;
+}
+
+@media screen and (min-width: 1295px)	{
+
+	.largeTitle	{
+		margin-top: 50px;
+		margin-bottom: 35px;
+		line-height: 78px;
+		font-size: 62px;
+	}
+
+}
+
+@media screen and (max-width: 767px)	{
+
+	.largeTitleIllustration	{
+		height: 100px;
+	}
+	
+	.wallpaper	{
+		margin-top: 50px;
+	}
+
+}
+

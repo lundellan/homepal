@@ -1,0 +1,303 @@
+.contentSection5	{
+	margin: 0 auto;
+	display: table;
+	max-width: 1065px;
+	width: calc(100% - 130px);
+	position: relative;
+	z-index: 2;
+	padding: 0 0 75px 0;
+}
+
+.tinyTextSection	{
+	margin: 0 auto;
+	display: table;
+	max-width: 1090px;
+	width: calc(100% - 105px);
+	position: relative;
+	z-index: 2;
+	padding: 0 0 0 0;
+}
+
+.tinyTitle, .largeTitle	{
+	float: left;
+	width: calc(100% - 20px);
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 44px;
+	color: #000000;
+	-webkit-font-smoothing: antialiased;
+	margin: 75px 10px 8px 10px;
+}
+
+.largeTitle	{
+	font-size: 76px;
+	line-height: 96px;
+	margin-top: 75px;
+	max-width: 850px;
+	margin-bottom: 50px;
+}
+
+#topBanner	{
+	float: left;
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	object-position: center;
+	margin-top: 25px;
+}
+
+#signature	{
+	float: left; 
+	height: 100px; 
+	margin-top: 65px; 
+	margin-bottom: 35px; 
+	margin-left: 10px;
+}
+
+.largeImage	{
+	float: left;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	min-height: 700px;
+}
+
+.tinyLink	{
+	float: left;
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 28px;
+	-webkit-font-smoothing: antialiased;
+	margin: 0 10px 8px 10px;
+	width: 100%;
+	color: #0070C9;
+	text-decoration: none;
+}
+
+.tinyText	{
+	float: left;
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 32px;
+	color: #606060;
+	-webkit-font-smoothing: antialiased;
+	width: 500px;
+	margin: 0px 10px 0 10px;
+}
+
+.tinyTextParagraph	{
+	margin-left: calc(45px / 2);
+	margin-right: calc(45px / 2);
+	max-width: 500px;
+	width: calc(100% - 45px);
+}
+
+.stepsDescription	{
+	max-width: 500px;
+	width: 100%;
+	margin: 15px 0 0 0;
+}
+
+.appSection	{
+	float: left;
+	width: 335px;
+	margin: 22px 10px 0 10px;
+	background-color: #f5f5f5;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	position: relative;
+	height: 227px;
+	cursor: pointer;
+}
+
+.appSection:hover .webpageLink	{
+	text-decoration: underline;
+}
+
+.appSectionLogo	{
+	float: left;
+	height: 36px;
+	margin: 36px 0 0 20px;
+}
+
+.appSectionLogoIcon	{
+	float: left;
+	height: 50px;
+	margin: 22px 0 0 20px;
+}
+
+.appSectionDescription	{
+	float: left;
+	width: calc(100% - 40px);
+	margin: 5px 20px 5px 20px;
+	font-size: 18px;
+	line-height: 26px;
+	color: #606060;
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+	height: 52px;
+}
+
+.appSectionAnnotation	{
+	position: absolute;
+	bottom: 0;
+	right: 13px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	border-radius: 6px;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	line-height: 27px;
+	padding: 0 6px;
+	font-weight: 500;
+	color: #000000;
+	box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+.updateSection	{
+	float: left;
+	width: 335px;
+	margin: 22px 10px 0 10px;
+	background-color: #f5f5f5;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+	height: 250px;
+	border-radius: 10px;
+	
+}
+
+@media screen and (max-width: 1295px)	{	
+	#hiddenTablet	{
+		display: none;
+	}
+	
+	.appSection	{
+		width: calc(50% - 20px);
+	}
+	
+	.tinyTextSection	{
+		width: calc(100% - 58px);
+		max-width: 840px;
+	}
+	
+	.tinyTextParagraph	{
+		max-width: 700px;
+		width: calc(100% - 20px);
+		margin: 0 10px 30px 10px;
+	}
+	
+	
+	
+	.contentSection5	{
+		width: calc(100% - 58px);
+		max-width: 840px;
+	}
+	
+	.largeTitle	{
+		font-size: 58px;
+		line-height: 78px;
+		max-width: 700px;
+		margin-top: 50px;
+		margin-bottom: 35px;
+	}
+	
+	#topBanner	{
+		margin-bottom: 25px;
+	}
+	
+	.largeImage	{
+		margin-top: -25px;
+	}
+	
+	#signature	{
+		margin-top: 25px;
+	}
+	
+	.tabletHidden	{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px)	{
+	.mobileHide	{
+		display: none;
+	}
+	
+	.largeTitle, .tinyTitle	{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		font-size: 32px;
+		line-height: 38px;
+	}
+	
+	.tinyTitle	{
+		margin-top: 65px;
+	}
+	
+	.largeTitle	{
+		font-size: 42px;
+		line-height: 56px;
+		margin-bottom: 25px;
+	}
+	
+	.tinyDescription	{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.tinyTextSection	{
+		width: calc(100% - 20px);
+		max-width: 520px;
+	}
+	
+	.appSection	{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	#signature	{
+		height: 75px;
+		margin-top: 25px;
+		margin-left: 0;
+	}
+	
+	#contentParent2	{
+		padding-bottom: 50px !important;
+	}
+	
+	.contentSection5	{
+		max-width: 500px;
+		width: calc(100% - 40px);
+	}
+}
+
+
+.row	{
+	float: left;
+	width: 100%;
+}
+
+img	{
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
